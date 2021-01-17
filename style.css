@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: armyFont, arial, sans-serif;
+    background: url('http://likefon.com/uploads/p1g/world-of-warships-wargaming-3546.jpg') no-repeat;
+    background-size: cover;
+}
+
+.left-container {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+
+.titulo {
+    color: #fff;
+    font-size: 55px;
+    margin-top: 15px;
+}
+
+.nombre-jugador {
+    font-size: 40px;
+    color: #FFAB34;
+    text-shadow: -1px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;
+}
+
+div.contenedor {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+div.contenedor > div.jugadores {
+    margin: 0 auto;
+    width: 60%;
+    height: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 5px solid #333333;
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    -webkit-transition: all 0.7s linear;
+    -moz-transition: all 0.7s linear;
+    -o-transition: all 0.7s linear;
+    transition: all 0.7s linear;
+    background-color: rgba(21, 133, 165, 0.8);
+}
+
+td {
+    border: 1px solid #333333;
+    width: 30px;
+    height: 30px;
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.oculto {
+    bottom: 101%;
+}
+
+.visible {
+    bottom: 0;
+}
+
+@font-face {
+    font-family: armyFont;
+    src: url(army.ttf);
+}

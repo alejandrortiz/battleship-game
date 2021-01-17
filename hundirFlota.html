@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hundir la flota</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="hundirFlota.js"></script>
+    <script src="pintarFlota.js"></script>
+    <script src="destruirFlota.js"></script>
+    <script src="pantallas.js"></script>
+</head>
+<body onload="iniciar()">
+<div class="contenedor">
+    <div class="left-container">
+        <span class="titulo">Battleship</span>
+        <span class="nombre-jugador" id="nombre"></span>
+    </div>
+    <div class="jugadores" id="player-1">
+        <table class="oculto" id="p1-table-up"></table>
+        <table class="oculto" id="p1-table-down"></table>
+    </div>
+    <div class="jugadores" id="player-2">
+        <table class="oculto" id="p2-table-up"></table>
+        <table class="oculto" id="p2-table-down"></table>
+    </div>
+</div>
+</body>
+</html>
